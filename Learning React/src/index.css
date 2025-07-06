@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-color: black;
+  color: white;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav #part-2{
+    display: flex;
+    gap: 30px;
+}
+#card{
+  height: 300px;
+  width: 300px;
+  border: 2px solid white;
+  margin-left:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+#cards-parent{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+#app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+#footer-parent{
+  text-align: center;
+  background-color: blue;
+  
+}
+a{
+  color: white;
+}
