@@ -10,9 +10,9 @@ function App() {
   // Memoize the function so it doesn't get recreated on every render.
   // Since the dependency array is empty, this function will stay the same across all renders.
   // Useful when passing as a prop to avoid unnecessary child re-renders (when used with React.memo).
-  let forOneTime = useCallback(() => {
-    return 1
-  }, [])
+  let forOneTime =useCallback(() => {
+    console.log("For One Time")
+  },[])
   
   // Memoize the function so it doesn't get recreated on every render accept when the count2 changes
   let countChange=useCallback(()=>{
